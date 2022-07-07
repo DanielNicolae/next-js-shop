@@ -22,13 +22,26 @@ export default function Layout({ children }) {
         <Head>
           <title>Next shop</title>
         </Head>
-        <AppBar position='static'>
-          <Toolbar>
+        <AppBar position='static' className='AppBar'>
+          <Toolbar className='Grow'>
             <NextLink href='/' passHref>
-              <Link>
-                <Typography>Next shop</Typography>
+              <Link >
+                <Typography className='Title'>Next shop</Typography>
               </Link>
             </NextLink>
+            {/* <div className='Grow'></div> */}
+            <div className='Links'>
+              <NextLink href='/cart' passHref>
+                <Link>
+                  <Typography className='CartMenu'>Cart</Typography>
+                </Link>
+              </NextLink>
+              <NextLink href='/login' passHref>
+                <Link>
+                  <Typography className='CartMenu'>Login</Typography>
+                </Link>
+              </NextLink>
+            </div>
           </Toolbar>
         </AppBar>
         <Container>

@@ -2,3 +2,32 @@
   height: 25em;
   object-fit: contain;
 }
+
+.AppBar {
+  margin-bottom: 10px;
+}
+
+.Grow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Links {
+  display: flex;
+}
+
+.Title {
+  color: #000000;
+  font-weight: bold;
+}
+
+.CartMenu {
+  color: #000000;
+  padding: 0 10px 0 10px;
+}
+
+.CartMenu:hover {
+  text-decoration: underline;
+}

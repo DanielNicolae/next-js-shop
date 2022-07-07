@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import { AppBar, Toolbar, Typography, Container, ThemeProvider } from '@mui/material';
+import NextLink from 'next/link';
+import { AppBar, Toolbar, Typography, Container, ThemeProvider, Link } from '@mui/material';
 import { StyledEngineProvider, createTheme } from '@mui/material/styles';
 
 let theme = createTheme({
@@ -21,9 +22,13 @@ export default function Layout({ children }) {
         <Head>
           <title>Next shop</title>
         </Head>
-        <AppBar position="static">
+        <AppBar position='static'>
           <Toolbar>
-            <Typography>Next shop</Typography>
+            <NextLink href='/' passHref>
+              <Link>
+                <Typography>Next shop</Typography>
+              </Link>
+            </NextLink>
           </Toolbar>
         </AppBar>
         <Container>

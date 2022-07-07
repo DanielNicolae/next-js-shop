@@ -1,0 +1,4 @@
+.CardMedia {
+  height: 25em;
+  object-fit: contain;
+}

@@ -1,9 +1,10 @@
 const data = {
   products: [
     {
+      id: 1,
       name: 'Green shirt',
       categry: 'Shirts',
-      image: '/image/gree-shirt.jpg',
+      image: '/images/green-shirt.jpg',
       price: 70,
       brand: 'Nike',
       numReviews: 20,
@@ -11,9 +12,10 @@ const data = {
       description: 'A cool shirt',
     },
     {
+      id: 2,
       name: 'Black shirt',
       categry: 'Shirts',
-      image: '/image/black-shirt.jpg',
+      image: '/images/black-shirt.jpg',
       price: 55,
       brand: 'Lacostes',
       numReviews: 23,
@@ -21,9 +23,10 @@ const data = {
       description: 'A cool shirt',
     },
     {
+      id: 3,
       name: 'Grey shirt',
       categry: 'Shirts',
-      image: '/image/Grey-shirt.jpg',
+      image: '/images/grey-shirt.jpg',
       price: 53,
       brand: 'Under Armour',
       numReviews: 38,
@@ -31,9 +34,10 @@ const data = {
       description: 'A cool shirt',
     },
     {
+      id: 4,
       name: 'Blue shirt',
       categry: 'Shirts',
-      image: '/image/blue-shirt.jpg',
+      image: '/images/blue-shirt.jpg',
       price: 54,
       brand: 'H&M',
       numReviews: 25,
@@ -41,9 +45,10 @@ const data = {
       description: 'A cool shirt',
     },
     {
+      id: 5,
       name: 'Red shirt',
       categry: 'Shirts',
-      image: '/image/red-shirt.jpg',
+      image: '/images/red-shirt.jpg',
       price: 56,
       brand: 'Adidas',
       numReviews: 40,
@@ -52,3 +57,5 @@ const data = {
     },
   ],
 };
+
+export default data;

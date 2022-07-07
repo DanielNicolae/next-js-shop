@@ -15,12 +15,13 @@ let theme = createTheme({
   },
 });
 
-export default function Layout({ children }) {
+export default function Layout({ title, description, children }) {
   return (
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme}>
         <Head>
-          <title>Next shop</title>
+          <title>{title ? `${title} - Next Shop` : 'Next shop'}</title>
+          {description && <meta name="description" content={description}></meta>}
         </Head>
         <AppBar position='static' className='AppBar'>
           <Toolbar className='Grow'>

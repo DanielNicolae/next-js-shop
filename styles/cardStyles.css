@@ -31,3 +31,17 @@
 .CartMenu:hover {
   text-decoration: underline;
 }
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+footer {
+  background-color: #bbbbbb;
+  position: relative;
+  padding: 50px;
+
+}

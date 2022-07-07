@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Blue T-Shirt",
+    "href": "#",
+    "imageSrc": "https://sc01.alicdn.com/kf/UTB8hwbkXCbIXKJkSaefq6yasXXaO/440006/UTB8hwbkXCbIXKJkSaefq6yasXXaO.jpg",
+    "imageAlt": "A blue T-Shirt",
+    "price": 10,
+    "curency": "$",
+    "color": "blue",
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "name": "Yellow T-Shirt",
+    "href": "#",
+    "imageSrc": "http://www.clipartbest.com/cliparts/LTK/zRG/LTKzRG5yc.jpg",
+    "imageAlt": "A yellow T-Shirt",
+    "price": 10,
+    "curency": "$",
+    "color": "yellow",
+    "stock": 55
+  },
+  {
+    "id": 3,
+    "name": "Black T-Shirt",
+    "href": "#",
+    "imageSrc": "https://purepng.com/public/uploads/large/purepng.com-black-t-shirtclothingblack-t-shirtfashion-dress-shirt-black-cloth-tshirt-631522326884bzr0p.png",
+    "imageAlt": "A black T-Shirt",
+    "price": 10,
+    "curency": "$",
+    "color": "black",
+    "stock": 40
+  },
+  {
+    "id": 4,
+    "name": "White T-Shirt",
+    "href": "#",
+    "imageSrc": "https://www.crestedschoolwear.co.uk/wp-content/uploads/2018/07/white-tshirt.jpg",
+    "imageAlt": "A white T-Shirt",
+    "price": 10,
+    "curency": "$",
+    "color": "white",
+    "stock": 45
+  },
+  {
+    "id": 5,
+    "name": "Red T-Shirt",
+    "href": "#",
+    "imageSrc": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.bQraaSwrRsDP2vP6w6Ub-wHaHa%26pid%3DApi&f=1",
+    "imageAlt": "A red T-Shirt",
+    "price": 10,
+    "curency": "$",
+    "color": "red",
+    "stock": 60
+  },
+  {
+    "id": 6,
+    "name": "Beige T-Shirt",
+    "href": "#",
+    "imageSrc": "https://www.crafters.fr/images/stories/virtuemart/product/hqtxadm/14447_5ee3924152ddb__MG_7737--760_11004_h.png",
+    "imageAlt": "A beige T-Shirt",
+    "price": 10,
+    "curency": "$",
+    "color": "beige",
+    "stock": 60
+  }
+]
